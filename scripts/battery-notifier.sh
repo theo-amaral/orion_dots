@@ -8,7 +8,7 @@ export DISPLAY=:0
 # Define o endereço do D-Bus (essencial para o notify-send funcionar)
 export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${USER_ID}/bus"
 CRITICAL_CAP=10
-WARNING_CAP=80
+WARNING_CAP=30
 
 ran1=false
 ran2=false

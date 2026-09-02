@@ -282,6 +282,15 @@ window#waybar > box {
 	background-color: @foreground-dark;
 }
 
+#battery.warning {
+    color: #ffffff;
+    background-color: #fff44f;
+}
+#battery.critical {
+    color: #ffffff;
+    background-color: #ff6961;
+}
+
 /*--------------------- POWER ------------------------*/
 
 #custom-power {
