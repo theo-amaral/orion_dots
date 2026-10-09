@@ -282,12 +282,12 @@ window#waybar > box {
 	background-color: @foreground-dark;
 }
 
-#battery.warning {
-    color: #ffffff;
+#battery.warning:not(.charging) {
+    color: @background;
     background-color: #fff44f;
 }
-#battery.critical {
-    color: #ffffff;
+#battery.critical:not(.charging) {
+    color: @background;
     background-color: #ff6961;
 }
 

@@ -74,9 +74,7 @@ hl.config({
         },
     },
     animations = {
-        enabled = false,
-        bezier = {},
-        animation = {},
+        enabled = true,
     },
     dwindle = {
         preserve_split = true,
@@ -99,6 +97,8 @@ hl.config({
         },
     },
 })
+
+hl.animation({ leaf = "workspaces", enabled = true, speed = 2, bezier = "default", style = "fade" })
 
 hl.gesture({
     fingers = 3,
